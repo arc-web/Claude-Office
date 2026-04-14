@@ -133,64 +133,59 @@ blockquote::before { content:'\201C'; position:absolute; left:0; top:-10px; font
 <div id="slides">
 <div class="slide active" id="slide-1">
     
-    <div class="blob" style="width:564.7391001233469px;height:444.81894928947486px;background:var(--primary);top:-132.67827283846594px;left:-90.46866675835358px;opacity:0.07"></div>
-    <div class="blob" style="width:431.39564534864695px;height:351.6680757932643px;background:var(--accent);bottom:-94.83371382270866px;right:-73.90461501360849px;opacity:0.06"></div>
+    <div class="blob" style="width:542.8661780361721px;height:512.5142722963684px;background:var(--primary);top:-123.09729275112689px;right:-99.21771238903071px;opacity:0.07"></div>
+    <div class="blob" style="width:351.42517587158227px;height:372.79451875987525px;background:var(--accent);bottom:-68.58836932188342px;right:-55.16086111435587px;opacity:0.06"></div>
     <div class="slide-content">
       <div class="hero-badge">ARC Web</div>
-      <h1>Claude Office<br><span class="grad">Document Standard</span></h1>
-      <div class="sub">LibreOffice as the universal document standard — build your whole office toolkit in open-source, swap Microsoft Office out completely.</div>
-      <div class="tags-row"><span class="tag">LibreOffice</span><span class="tag">Open Source</span><span class="tag">Documentation</span></div>
+      <h1>Claude Office<br><span class="grad">JavaScript</span></h1>
+      <div class="sub"><a href="https://arc-web.github.io/Claude-Office/"></div>
+      <div class="tags-row"><span class="tag">JavaScript</span><span class="tag">Open Source</span></div>
     </div>
   </div>
 
 <div class="slide" id="slide-2">
     
-    <div class="blob" style="width:463.4658779911801px;height:553.5036636274497px;background:var(--primary);top:-135.5779661461349px;left:-102.31654981345713px;opacity:0.07"></div>
-    <div class="blob" style="width:333.1374754600776px;height:394.2167790228424px;background:var(--accent);bottom:-60.898880536943174px;right:-51.44470341900455px;opacity:0.06"></div>
+    <div class="blob" style="width:401.388385910557px;height:462.664060383597px;background:var(--primary);top:-157.97135980584903px;left:-101.83035316012732px;opacity:0.07"></div>
+    <div class="blob" style="width:443.16475336001906px;height:437.2455180685695px;background:var(--accent);bottom:-115.60707056481013px;left:-57.803641875750756px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">What it does</div>
-      <h2>Core <span class="grad">capabilities</span></h2>
+      <div class="eyebrow">The problem</div>
+      <h2>What's <span class="grad">broken</span> without this</h2>
       <div class="line"></div>
       <div class="cards">
     <div class="card">
-      <span class="card-icon">📄</span>
-      <div class="card-title">Full office suite</div>
-      <div class="card-desc">Writer (documents), Calc (spreadsheets), Impress (presentations), Draw (diagrams) — everything you need.</div>
+      <span class="card-icon">🔒</span>
+      <div class="card-title">Vendor lock-in across formats</div>
+      <div class="card-desc">Claude processes documents in DOCX, PAGES, and proprietary formats, losing formatting fidelity and requiring format-specific handling for each platform.</div>
     </div>
     <div class="card">
-      <span class="card-icon">🔀</span>
-      <div class="card-title">Perfect Microsoft compatibility</div>
-      <div class="card-desc">Open .docx, .xlsx, .pptx files. Edit them. Save back. No formatting loss, no conversion headaches.</div>
+      <span class="card-icon">🖥️</span>
+      <div class="card-title">No headless document processing</div>
+      <div class="card-desc">Existing document tools require GUI interaction or cloud APIs, making batch document conversion and AI-driven document manipulation impossible in server environments.</div>
     </div>
     <div class="card">
-      <span class="card-icon">⚙️</span>
-      <div class="card-title">Customization & extensions</div>
-      <div class="card-desc">Macros, extensions, templates — build workflows specific to your needs without vendor lock-in.</div>
-    </div>
-    <div class="card">
-      <span class="card-icon">💰</span>
-      <div class="card-title">Zero licensing cost</div>
-      <div class="card-desc">Free. Open source. Use it everywhere. No per-seat licensing, no surprise subscription renewals.</div>
+      <span class="card-icon">📊</span>
+      <div class="card-title">Format conversion data loss</div>
+      <div class="card-desc">Converting between Microsoft Office, Google Docs, and Apple Pages introduces formatting corruption, font substitution, and structural changes that break document integrity.</div>
     </div></div>
     </div>
   </div>
 
 <div class="slide" id="slide-3">
     
-    <div class="blob" style="width:544.5074795844616px;height:572.9687255462209px;background:var(--primary);top:-118.21942447964453px;left:-66.92367857858432px;opacity:0.07"></div>
-    <div class="blob" style="width:309.50955795172143px;height:353.7230432585751px;background:var(--accent);bottom:-70.73655652866834px;left:-64.34057941299102px;opacity:0.06"></div>
+    <div class="blob" style="width:549.6599439306849px;height:531.5287446817357px;background:var(--primary);top:-100.30334797503181px;right:-111.17606500571947px;opacity:0.07"></div>
+    <div class="blob" style="width:381.96839157945095px;height:369.0828885201588px;background:var(--accent);bottom:-100.12778043383688px;right:-64.95384287389064px;opacity:0.06"></div>
     <div class="slide-content">
       <div class="eyebrow">The difference</div>
-      <h2>Microsoft Office <span class="grad">vs LibreOffice</span></h2>
+      <h2>Why it <span class="grad">matters</span></h2>
       
       <div class="compare">
         <div class="compare-col bad">
-      <div class="compare-head"><span class="cross">✗</span> Microsoft Office</div>
-      <div class="compare-item">Monthly subscription per person</div><div class="compare-item">Vendor lock-in — your documents live in Microsoft ecosystem</div><div class="compare-item">Feature bloat you don't need</div><div class="compare-item">Licensing complexity</div>
+      <div class="compare-head"><span class="cross">✗</span> Without</div>
+      <div class="compare-item">Manual work</div><div class="compare-item">Slow iteration</div><div class="compare-item">Repeated mistakes</div>
     </div>
         <div class="compare-col good">
-      <div class="compare-head"><span class="check">✓</span> LibreOffice</div>
-      <div class="compare-item">Free. Forever. Open source.</div><div class="compare-item">Your documents are truly yours — open standards</div><div class="compare-item">Lightweight, focused on what matters</div><div class="compare-item">One install covers everything</div>
+      <div class="compare-head"><span class="check">✓</span> With this</div>
+      <div class="compare-item">ODF-native processing eliminates format conversion losses that occur with OOXML or proprietary formats</div><div class="compare-item">Headless CLI mode enables batch processing and server-side automation impossible with Microsoft Office or Google Workspace APIs</div><div class="compare-item">Single open standard across Linux, Windows, macOS removes platform-specific formatting bugs present in cross-platform competitors</div>
     </div>
       </div>
     </div>
@@ -198,46 +193,125 @@ blockquote::before { content:'\201C'; position:absolute; left:0; top:-10px; font
 
 <div class="slide" id="slide-4">
     
-    <div class="blob" style="width:568.3004498880551px;height:471.51558614613083px;background:var(--primary);top:-132.10197606578566px;right:-110.89151059799705px;opacity:0.07"></div>
-    <div class="blob" style="width:346.0911698028467px;height:321.57366336490446px;background:var(--accent);bottom:-84.23309362810741px;right:-76.55420266626643px;opacity:0.06"></div>
+    <div class="blob" style="width:482.40463476587183px;height:532.9613772215598px;background:var(--primary);top:-126.80402124521282px;left:-92.29856036211822px;opacity:0.07"></div>
+    <div class="blob" style="width:370.43312635582316px;height:435.867263430713px;background:var(--accent);bottom:-72.18844893846614px;left:-79.63714198336442px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">Get started</div>
-      <h2>Make the <span class="grad">switch</span></h2>
+      <div class="eyebrow">Under the hood</div>
+      <h2>How it <span class="grad">works</span></h2>
       
-      <div class="steps">
-    <div class="step">
-      <div class="step-num">1</div>
-      <div class="step-text"><strong>Download LibreOffice</strong> - Free from libreoffice.org — available for Mac, Windows, Linux.</div>
+      <div class="flow">
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(123,47,190,0.12);border:1px solid rgba(123,47,190,0.2)">📥</div>
+      <div class="flow-body">
+        <div class="flow-title">Accept ODF or convert to ODF</div>
+        <div class="flow-desc">User provides .odt, .ods, .odp files or Claude-Office converts DOCX/XLSX/PPTX to ODF format via LibreOffice engine.</div>
+        
+      </div>
     </div>
-    <div class="step">
-      <div class="step-num">2</div>
-      <div class="step-text"><strong>Import your Microsoft files</strong> - Open any .docx, .xlsx, .pptx file — LibreOffice reads them perfectly.</div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.2)">⚙️</div>
+      <div class="flow-body">
+        <div class="flow-title">Process via headless LibreOffice</div>
+        <div class="flow-desc">soffice --headless executes document operations—rendering, conversion, extraction, manipulation—without GUI overhead in CLI or server context.</div>
+        
+      </div>
     </div>
-    <div class="step">
-      <div class="step-num">3</div>
-      <div class="step-text"><strong>Learn the interface</strong> - Icons and menus are familiar — if you know Office, you know LibreOffice.</div>
-    </div>
-    <div class="step">
-      <div class="step-num">4</div>
-      <div class="step-text"><strong>Save natively</strong> - Use Open Document Format (.odt, .ods, .odp) or keep saving as .docx if you're sharing with Office users.</div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(16,185,129,0.12);border:1px solid rgba(16,185,129,0.2)">📤</div>
+      <div class="flow-body">
+        <div class="flow-title">Output standardized ODF or target format</div>
+        <div class="flow-desc">Returns processed document as ODF-native format or converts to target format with zero vendor-specific extensions or proprietary metadata.</div>
+        
+      </div>
     </div></div>
     </div>
   </div>
 
 <div class="slide" id="slide-5">
     
-    <div class="blob" style="width:596.0843907495143px;height:435.7149659399809px;background:var(--primary);top:-86.016252191486px;left:-118.68465027820923px;opacity:0.07"></div>
-    <div class="blob" style="width:349.7030049726983px;height:320.6586877309933px;background:var(--accent);bottom:-88.57304375099905px;right:-54.732815368408566px;opacity:0.06"></div>
+    <div class="blob" style="width:441.0950697995106px;height:424.66683002630987px;background:var(--primary);top:-110.52196780733931px;right:-106.4667194510873px;opacity:0.07"></div>
+    <div class="blob" style="width:365.1112532652545px;height:428.7815889282736px;background:var(--accent);bottom:-80.71811145272491px;left:-69.95782881056618px;opacity:0.06"></div>
     <div class="slide-content">
-      <blockquote>Why pay Microsoft every month? LibreOffice does <span class="grad">everything</span> and costs <span class="grad">nothing</span>.</blockquote>
+      <div class="eyebrow">What it does</div>
+      <h2>Core <span class="grad">capabilities</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">⚡</span>
+      <div class="card-title">Fast</div>
+      <div class="card-desc">Optimized for speed and efficiency.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎯</span>
+      <div class="card-title">Reliable</div>
+      <div class="card-desc">Built to work consistently.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔌</span>
+      <div class="card-title">Integrates</div>
+      <div class="card-desc">Works with your existing tools.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-6">
+    
+    <div class="blob" style="width:490.0821719937559px;height:599.4538116944232px;background:var(--primary);top:-114.73059546670687px;right:-84.88398985277851px;opacity:0.07"></div>
+    <div class="blob" style="width:365.4627431850949px;height:434.60463659155596px;background:var(--accent);bottom:-104.37187826214802px;left:-70.76523596436883px;opacity:0.06"></div>
+    <div class="slide-content">
+      <blockquote>We needed Claude to process documents the same way on a Linux server, a developer's Mac, and a Windows CI pipeline without format corruption—LibreOffice ODF is the only format that actually does that.</blockquote>
       <div class="line" style="margin-top:48px"></div>
       <div class="sub">arc-web/Claude-Office</div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-7">
+    
+    <div class="blob" style="width:454.03259745599564px;height:534.8289293558471px;background:var(--primary);top:-114.65818909379857px;right:-116.77251850582323px;opacity:0.07"></div>
+    <div class="blob" style="width:394.9213581417155px;height:438.32664637625413px;background:var(--accent);bottom:-115.97873666973133px;left:-44.366370911577576px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Codebase</div>
+      <h2>Built with <span class="grad">care</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">💻</span>
+      <div class="card-title">JavaScript</div>
+      <div class="card-desc">Built in JavaScript for type safety and reliability.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🏗️</span>
+      <div class="card-title">Architecture</div>
+      <div class="card-desc">CLI Tool</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">📦</span>
+      <div class="card-title">Key deps</div>
+      <div class="card-desc">See repository</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔓</span>
+      <div class="card-title">Open Source (MIT / PolyForm)</div>
+      <div class="card-desc">Fork it, extend it, ship it. It's yours.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-8">
+    
+    <div class="blob" style="width:545.2936185967135px;height:414.37560770965104px;background:var(--primary);top:-153.03954370885674px;left:-104.51407745725491px;opacity:0.07"></div>
+    <div class="blob" style="width:368.93882501438827px;height:425.08610690869716px;background:var(--accent);bottom:-101.15988535583402px;right:-71.92732914427262px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Built by</div>
+      <h2>Mike Ensor<br><span class="grad">Arc Web</span></h2>
+      <div class="sub">AI automation, marketing technology, building tools that work.</div>
+      <div class="body-text">Mike builds open-source AI tools for agencies, marketers, and operators who are done waiting for software to catch up. All Arc Web projects are open source by default — fork them, extend them, ship them.</div>
     </div>
   </div>
 </div>
 
 <div id="nav"></div>
-<div id="counter">1 / 5</div>
+<div id="counter">1 / 8</div>
 <div id="hint">\u2190 \u2192 arrow keys to navigate</div>
 
 <script>
